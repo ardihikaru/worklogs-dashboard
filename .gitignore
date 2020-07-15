@@ -11,6 +11,9 @@
 package-lock.json
 node_modules/
 
+# Ignore etc files
+.bin/
+
 # Ignore VSCode Settings
 .vscode/
 
