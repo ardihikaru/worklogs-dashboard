@@ -23,6 +23,8 @@ export default {
             filter: JSON.stringify(params.filter),
         };
         const url = `${apiUrl}/${resource}?${stringify(query)}`;
+        console.log(" --- url:" + url);
+
         const coba = `${apiUrl}/${resource}/${params.id}`;
         console.log(" --- dcoba .." + coba);
         const hasil = httpClient(url).then(({ json }) => ({

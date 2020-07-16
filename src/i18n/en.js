@@ -19,18 +19,13 @@ export const messages = {
                 email: 'Email',
             },
         },
-        drones: {
-            name: 'Drone |||| Drones',
+        worklogs: {
+            name: 'Worklogs |||| Worklogs',
             fields: {
-                drone_id: 'Drone ID',
-                drone_name: 'Drone Name',
-            },
-        },
-        nodes: {
-            name: 'Node |||| Nodes',
-            fields: {
-                node_id: 'Node ID',
-                node_name: 'Node Name',
+                task: 'Task',
+                description: 'Description',
+                work_hours: 'Work Hours',
+                work_datetime: 'Work Datetime',
             },
         },
     },
@@ -42,20 +37,12 @@ export const messages = {
             title: 'User "%{title}"',
         },
     },
-    drone: {
+    worklogs: {
         list: {
             search: 'Search',
         },
         edit: {
-            title: 'Drone "%{title}"',
-        },
-    },
-    node: {
-        list: {
-            search: 'Search',
-        },
-        edit: {
-            title: 'Node "%{title}"',
+            title: 'Task "%{title}"',
         },
     },
 };

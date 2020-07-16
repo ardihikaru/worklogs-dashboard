@@ -3,6 +3,7 @@ import * as React from "react";
 // import { fetchUtils, Admin, Resource } from 'react-admin';
 import { Admin, Resource } from 'react-admin';
 import users from './users';
+import worklogs from './worklogs';
 import Dashboard from './dashboard/Dashboard';
 import authProvider from './authProvider';
 import dataProvider from './dataProvider';
@@ -22,6 +23,7 @@ const App = () => (
         layout={Layout}
     >
         <Resource name="users" {...users} />
-    </Admin>
+        <Resource name="worklogs" {...worklogs} />
+</Admin>
 );
 export default App;
