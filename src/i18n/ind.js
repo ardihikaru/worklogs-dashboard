@@ -20,18 +20,13 @@ export default {
                 email: 'Email',
             },
         },
-        drones: {
-            name: 'Data Drone |||| Data Drone',
+        worklogs: {
+            name: 'Sejarah Pekerjaan |||| Sejarah Pekerjaan',
             fields: {
-                drone_id: 'Nomor Drone',
-                drone_name: 'Nama Drone',
-            },
-        },
-        nodes: {
-            name: 'Data Node |||| Data Node',
-            fields: {
-                node_id: 'Nomor Node',
-                node_name: 'Nama Node',
+                task: 'Pekerjaan',
+                description: 'Keterangan',
+                work_hours: 'Total jam kerja',
+                work_datetime: 'Waktu mulai kerja',
             },
         },
     },
@@ -43,20 +38,12 @@ export default {
             title: 'Nama Pengguna "%{title}"',
         },
     },
-    drone: {
+    worklogs: {
         list: {
             search: 'Cari',
         },
         edit: {
-            title: 'Nama Drone "%{title}"',
-        },
-    },
-    node: {
-        list: {
-            search: 'Cari',
-        },
-        edit: {
-            title: 'Nama Node "%{title}"',
+            title: 'Pekerjaan "%{title}"',
         },
     },
 };
